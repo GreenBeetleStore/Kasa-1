@@ -1,6 +1,6 @@
 # Kasa
 
-![Logo](./Public/15974111893356_Screen%20Shot%202020-07-08%20at%2018.17.37%20(1).jpg "KASA, P11")
+![Logo](./Public/UI-Design-Kasa-FR/Background.png "KASA, P11")
 
 **Développez une application Web avec React et React Router**
 
