@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Product from "./pages/Product";
+import Products from "./pages/Products";
 import PageNotFound from "./pages/PageNotFound";
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/*" element={<PageNotFound />} />
+          <Route path="about" element={<About />} />
+          <Route path="products" element={<Products />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
     </div>

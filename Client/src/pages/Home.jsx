@@ -5,8 +5,12 @@ function Home() {
   return (
     <div>
       HOME PAGE
-      <Link to="/about">ABOUT</Link>
-      <Link to="/about">PRODUCT</Link>
+      <div>
+        <Link to="/about">ABOUT</Link>
+      </div>
+      <div>
+        <Link to="/products">PRODUCTS</Link>
+      </div>
     </div>
   );
 }
