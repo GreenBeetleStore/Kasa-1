@@ -1,21 +1,35 @@
-import "./App.css";
+//react
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+//style
+import "./App.css";
+
+//pages
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Products from "./pages/Products";
+import Singleproduct from "./pages/Singleproduct";
 import PageNotFound from "./pages/PageNotFound";
+
+//components
+import StyledNavbar from "./components/StyledNavbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="products" element={<Products />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </Router>
+    <div>
+      <div className="App">
+        <Router>
+          <StyledNavbar />
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="products/:productId" element={<Singleproduct />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
     </div>
   );
 }
