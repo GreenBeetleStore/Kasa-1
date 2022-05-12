@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kasa/static/css/main.31d6cfe0.css",
-    "main.js": "/Kasa/static/js/main.d8345307.js",
+    "main.js": "/Kasa/static/js/main.63084743.js",
     "static/js/787.115df530.chunk.js": "/Kasa/static/js/787.115df530.chunk.js",
     "static/media/aboutbannerDesktop.png": "/Kasa/static/media/aboutbannerDesktop.0ee601e6c61621f7de50.png",
     "static/media/banner.png": "/Kasa/static/media/banner.912a2785d9054e272f03.png",
@@ -9,11 +9,11 @@
     "index.html": "/Kasa/index.html",
     "static/media/arrowRight.svg": "/Kasa/static/media/arrowRight.88153a5d119c2744ffe34dca1ef843df.svg",
     "static/media/arrowLeft.svg": "/Kasa/static/media/arrowLeft.19918a1634b1441a25ae0b50e6b1f85b.svg",
-    "main.d8345307.js.map": "/Kasa/static/js/main.d8345307.js.map",
+    "main.63084743.js.map": "/Kasa/static/js/main.63084743.js.map",
     "787.115df530.chunk.js.map": "/Kasa/static/js/787.115df530.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.d8345307.js"
+    "static/js/main.63084743.js"
   ]
 }
