@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/git504/Kasa/static/css/main.31d6cfe0.css",
+    "main.js": "/git504/Kasa/static/js/main.32954540.js",
+    "static/js/787.115df530.chunk.js": "/git504/Kasa/static/js/787.115df530.chunk.js",
+    "static/media/aboutbannerDesktop.png": "/git504/Kasa/static/media/aboutbannerDesktop.0ee601e6c61621f7de50.png",
+    "static/media/banner.png": "/git504/Kasa/static/media/banner.912a2785d9054e272f03.png",
+    "static/media/logo.svg": "/git504/Kasa/static/media/logo.b155131fa8b9f91a4a2958af7541fd8b.svg",
+    "index.html": "/git504/Kasa/index.html",
+    "static/media/arrowRight.svg": "/git504/Kasa/static/media/arrowRight.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/arrowLeft.svg": "/git504/Kasa/static/media/arrowLeft.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.32954540.js.map": "/git504/Kasa/static/js/main.32954540.js.map",
+    "787.115df530.chunk.js.map": "/git504/Kasa/static/js/787.115df530.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.32954540.js"
+  ]
+}
