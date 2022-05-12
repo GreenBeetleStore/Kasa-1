@@ -8,4 +8,4 @@ Implémentez le front end de Kasa, une application de location de logements. Met
 
 ---
 
-`cd Client && npm run start `
+`npm run start `

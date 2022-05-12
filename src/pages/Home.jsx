@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import image from "../design/banner.png";
-import Banner from "../components/Banner";
 import products from "../__mocks__/data.json";
 import marketdata from "../__mocks__/aboutData";
 import Herobanner from "../components/Herobanner";
@@ -14,8 +13,7 @@ const Products = () => {
     <div className="home">
       <section className="section">
         <div className="home__banner">
-          <Herobanner />
-          <Banner image={image} text={slogan} />
+          <Herobanner image={image} title={slogan} />
         </div>{" "}
         <div className="products">
           {products.map((product) => {
