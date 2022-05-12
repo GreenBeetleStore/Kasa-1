@@ -29,7 +29,17 @@ const Collapse = ({ title, content }) => {
         {title}
       </button>
       <div className="dropdown__content">
-        <p className="dropdown__text">{content}</p>
+        {Array.isArray(content) ? (
+          <ul className="dropdown__list">
+            {content.map((equipment, index) => (
+              <li key={index} className="dropdown__list-element">
+                {equipment}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="dropdown__text">{content}</p>
+        )}
       </div>
     </div>
   );
