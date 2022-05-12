@@ -1,4 +1,6 @@
 import React from "react";
+
+//Style
 import logoFooter from "../design/logofooter.png";
 
 function Footer() {

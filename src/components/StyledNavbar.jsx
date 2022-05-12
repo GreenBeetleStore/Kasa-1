@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+
+//Style
 import Logo from "../design/logo.svg";
 
 const StyledNavbar = () => {

@@ -15,14 +15,14 @@ const SingleProduct = () => {
 
   return (
     <div className="singleproduct">
-      <Slider pictures={pictures} />
+      <Slider slides={pictures} />
       <div className="singleproduct__content">
         <div className="singleproduct__informations">
           <h1 className="singleproduct__title">{title}</h1>
           <p className="singleproduct__location">{location}</p>
           <div className="singleproduct__tags">
-            {product.tags.map((tag) => (
-              <Tags key={tag} getTag={tag} />
+            {product.tags.map((tag, index) => (
+              <Tags key={index} getTag={tag} />
             ))}
           </div>
         </div>
