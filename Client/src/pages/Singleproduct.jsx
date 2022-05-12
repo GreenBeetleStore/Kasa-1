@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import products from "../data/data.json";
+import products from "../__mocks__/data.json";
 
 const SingleProduct = () => {
   const { productId } = useParams();
