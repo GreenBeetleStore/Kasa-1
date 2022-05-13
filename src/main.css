@@ -3,8 +3,8 @@
         Indendation de la CODEBASE système 7-1 avec le préprocesseur CSS Sass ;
         Compilation main.SCSS vers main.CSS avec le script dans package.json ;
 \*  ---------------------------------------------------------------------- */
-* {
-  background-color: red;
+body {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=main.css.map */
