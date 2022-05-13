@@ -1,0 +1,41 @@
+/*  ---------------------------------------------------------------------- *\
+        Indendation de la CODEBASE système 7-1 avec le préprocesseur CSS Sass ;
+        Compilation main.SCSS vers main.CSS avec le script dans package.json ;
+\*  ---------------------------------------------------------------------- */
+
+// UTILS
+@import "../sass/01_utils/animations";
+// @import "../sass/01_utils/_variables";
+// @import "../sass/01_utils/_animations";
+// @import "../sass/01_utils/_functions";
+// @import "../sass/01_utils/_mixins";
+// @import "../sass/01_utils/_extensions";
+
+// VENDORS
+// @import "../sass/02_vendors/_vendors";
+
+// BASE
+// @import "../sass/03_base/_typography";
+// @import "../sass/03_base/_base";
+
+// COMPONENT
+// @import "../sass/04_component/_btn";
+// @import "../sass/04_component/_userCard";
+// @import "../sass/04_component/_userinfos";
+// @import "../sass/04_component/_anchor";
+// @import "../sass/04_component/_modale";
+// @import "../sass/04_component/_slider";
+
+// LAYOUT
+// @import "../sass/05_layouts/_header";
+// @import "../sass/05_layouts/_nav";
+// @import "../sass/05_layouts/_container";
+// @import "../sass/05_layouts/_footer";
+// @import "../sass/05_layouts/_form";
+
+// PAGES
+// @import "../sass/06_pages/_homepage";
+// @import "../sass/06_pages/_userpage";
+
+// THEMES
+// @import "../sass/07_themes/_themes";

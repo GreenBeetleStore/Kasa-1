@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 //style
-import "./App.css";
+import "./main.css";
 
 //pages
 import Home from "./pages/Home";
