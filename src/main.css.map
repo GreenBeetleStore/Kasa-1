@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/main.scss","sass/01_utils/animations.scss"],"names":[],"mappings":";AAAA;AAAA;AAAA;AAAA;ACAA;EACE","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["sass/main.scss","sass/03_base/_typography.scss","sass/03_base/_base.scss","sass/06_pages/_about.scss"],"names":[],"mappings":";AAAA;AAAA;AAAA;AAAA;AAAA;ACAQ;ACAR;EACE;EACA;EAGA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;;;AAIF;EACE;;;ACnBF;EACE","file":"main.css"}
