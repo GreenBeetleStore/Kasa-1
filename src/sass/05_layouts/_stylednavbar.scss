@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5%;
+  margin: 2%;
   padding-top: 20px;
   @include media-query(small) {
-    margin: 5% 5%;
+    margin: 2% 2%;
   }
   @include media-query(medium) {
-    margin: 5% 5%;
+    margin: 3% 3%;
   }
   @include media-query(large) {
     margin: 5% 5%;
@@ -18,44 +18,52 @@
     display: flex;
     width: 33%;
     justify-content: space-around;
+    @include media-query(small) {
+      width: 60%;
+    }
+    @include media-query(medium) {
+      width: 45%;
+    }
+    @include media-query(large) {
+      width: 33%;
+    }
 
     &--active {
       width: 50%;
       color: $primary-color;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: end;
       font-weight: 500;
       text-decoration: underline;
       @include media-query(small) {
-        font-size: 17px;
+        font-size: auto;
       }
       @include media-query(medium) {
-        font-size: 20px;
+        font-size: medium;
       }
       @include media-query(large) {
-        font-size: 24px;
+        font-size: large;
       }
     }
 
     &--inactive {
       width: 50%;
-
       color: $primary-color;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: end;
       text-decoration: none;
       font-weight: 500;
       text-transform: uppercase;
       @include media-query(small) {
-        font-size: 17px;
+        font-size: auto;
       }
       @include media-query(medium) {
-        font-size: 20px;
+        font-size: medium;
       }
       @include media-query(large) {
-        font-size: 24px;
+        font-size: large;
       }
     }
   }
