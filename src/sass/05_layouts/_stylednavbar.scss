@@ -37,7 +37,7 @@
       font-weight: 500;
       text-decoration: underline;
       @include media-query(small) {
-        font-size: auto;
+        font-size: small;
       }
       @include media-query(medium) {
         font-size: medium;
@@ -57,7 +57,7 @@
       font-weight: 500;
       text-transform: uppercase;
       @include media-query(small) {
-        font-size: auto;
+        font-size: small;
       }
       @include media-query(medium) {
         font-size: medium;

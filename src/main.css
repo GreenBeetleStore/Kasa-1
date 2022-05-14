@@ -173,7 +173,7 @@ code {
 }
 @media only screen and (min-width: 350px) {
   .navbar__links--active {
-    font-size: auto;
+    font-size: small;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -198,7 +198,7 @@ code {
 }
 @media only screen and (min-width: 350px) {
   .navbar__links--inactive {
-    font-size: auto;
+    font-size: small;
   }
 }
 @media only screen and (min-width: 768px) {
