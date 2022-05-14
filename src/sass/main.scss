@@ -4,21 +4,21 @@
         "sass": "sass --watch ./src/sass:./src",
 \*  ---------------------------------------------------------------------- */
 
-// UTILS
+// 1 UTILS
 @import "./01_utils/_variables";
 @import "./01_utils/_mixins";
-// @import "../sass/01_utils/animations";
-// @import "../sass/01_utils/_functions";
-// @import "../sass/01_utils/_extensions";
+//animations
+//functions
+//extensions
 
-// VENDORS
-// @import "../sass/02_vendors/_vendors";
+// 2 VENDORS
+//vendor
 
-// BASE
+// 3 BASE
 @import "./03_base/_base";
 @import "./03_base/_typography";
 
-// COMPONENT
+// 4 COMPONENT
 @import "./04_component/_banner";
 @import "./04_component/_collapse";
 @import "./04_component/_herobanner";
@@ -27,17 +27,17 @@
 @import "./04_component/_slider";
 @import "./04_component/_tags";
 
-// LAYOUT
+// 5 LAYOUT
 @import "./05_layouts/_stylednavbar";
 @import "./05_layouts/_footer";
-// @import "../sass/05_layouts/_container";
-// @import "../sass/05_layouts/_form";
+//container
+//form
 
-// PAGES
+// 6 PAGES
 @import "./06_pages/_about";
 @import "./06_pages/_home";
 @import "./06_pages/_pagenotfound";
 @import "./06_pages/_singleproduct";
 
-// THEMES
-// @import "../sass/07_themes/_themes";
+// 7 THEMES
+//themes
