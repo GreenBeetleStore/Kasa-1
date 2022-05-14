@@ -19,8 +19,6 @@ const Products = () => {
         {products.map((product) => {
           return (
             <article key={product.id}>
-              <h6>{product.title}</h6>
-
               <Link to={`/products/${product.id}`}>
                 <Thumbnails image={product.cover} title={product.title} />
               </Link>
