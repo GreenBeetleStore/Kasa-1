@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+  padding-top: 20px;
+  @include media-query(small) {
+    margin: 5% 5%;
+  }
+  @include media-query(medium) {
+    margin: 5% 5%;
+  }
+  @include media-query(large) {
+    margin: 5% 5%;
+  }
+
+  &__links {
+    display: flex;
+    width: 33%;
+    justify-content: space-around;
+
+    &--active {
+      width: 50%;
+      color: $primary-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      text-decoration: underline;
+      @include media-query(small) {
+        font-size: 17px;
+      }
+      @include media-query(medium) {
+        font-size: 20px;
+      }
+      @include media-query(large) {
+        font-size: 24px;
+      }
+    }
+
+    &--inactive {
+      width: 50%;
+
+      color: $primary-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 500;
+      text-transform: uppercase;
+      @include media-query(small) {
+        font-size: 17px;
+      }
+      @include media-query(medium) {
+        font-size: 20px;
+      }
+      @include media-query(large) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  &__img {
+    height: 47px;
+    @include media-query(small) {
+      height: 53px;
+    }
+    @include media-query(medium) {
+      height: 61px;
+    }
+    @include media-query(large) {
+      height: 68px;
+    }
+  }
+}

@@ -14,11 +14,11 @@
 // 2 VENDORS
 //vendor
 
-// 3 BASE
+// 3 BASES
 @import "./03_base/_base";
 @import "./03_base/_typography";
 
-// 4 COMPONENT
+// 4 COMPONENTS
 @import "./04_component/_banner";
 @import "./04_component/_collapse";
 @import "./04_component/_herobanner";
@@ -26,8 +26,9 @@
 @import "./04_component/_server";
 @import "./04_component/_slider";
 @import "./04_component/_tags";
+@import "./04_component/_thumbnails";
 
-// 5 LAYOUT
+// 5 LAYOUTS
 @import "./05_layouts/_stylednavbar";
 @import "./05_layouts/_footer";
 //container

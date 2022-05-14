@@ -1,4 +1,4 @@
-//react
+//react Framework
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -7,16 +7,16 @@ import {
   Navigate,
 } from "react-router-dom";
 
-//style
+//style by Sass Partials
 import "./main.css";
 
-//pages
+//pages by React BrowserRouter
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Singleproduct from "./pages/Singleproduct";
 import PageNotFound from "./pages/PageNotFound";
 
-//components
+//components Header && Footer
 import StyledNavbar from "./components/StyledNavbar";
 import Footer from "./components/Footer";
 

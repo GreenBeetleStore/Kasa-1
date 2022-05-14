@@ -7,24 +7,26 @@ const StyledNavbar = () => {
   return (
     <nav className="navbar">
       <NavLink to="/">
-        <img src={Logo} alt="Logo" className="nav__img" />
+        <img src={Logo} alt="Logo" className="navbar__img" />
       </NavLink>
-      <NavLink
-        to="/"
-        className={({ isActive }) =>
-          isActive ? "nav__link-active" : "nav__link"
-        }
-      >
-        Accueil
-      </NavLink>
-      <NavLink
-        to="/about"
-        className={({ isActive }) =>
-          isActive ? "nav__link-active" : "nav__link"
-        }
-      >
-        About
-      </NavLink>
+      <div className="navbar__links">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "navbar__links--active" : "navbar__links--inactive"
+          }
+        >
+          Accueil
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? "navbar__links--active" : "navbar__links--inactive"
+          }
+        >
+          About
+        </NavLink>
+      </div>
     </nav>
   );
 };

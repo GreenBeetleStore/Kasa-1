@@ -5,33 +5,28 @@ import image from "../design/banner.png";
 import products from "../__mocks__/data.json";
 import marketdata from "../__mocks__/aboutData";
 import Herobanner from "../components/Herobanner";
+import Thumbnails from "../components/Thumbnails";
 
 const slogan = marketdata.slogan;
 
 const Products = () => {
   return (
     <div className="home">
-      <section className="section">
-        <div className="home__banner">
-          <Herobanner image={image} title={slogan} />
-        </div>{" "}
-        <div className="products">
-          {products.map((product) => {
-            return (
-              <article key={product.id}>
-                <h6>{product.title}</h6>
+      <div className="home__banner">
+        <Herobanner image={image} title={slogan} />
+      </div>{" "}
+      <section className="home__products">
+        {products.map((product) => {
+          return (
+            <article key={product.id}>
+              <h6>{product.title}</h6>
 
-                <Link to={`/products/${product.id}`}>
-                  <img
-                    src={product.cover}
-                    alt={product.title}
-                    className="nav__img"
-                  />
-                </Link>
-              </article>
-            );
-          })}
-        </div>
+              <Link to={`/products/${product.id}`}>
+                <Thumbnails image={product.cover} title={product.title} />
+              </Link>
+            </article>
+          );
+        })}
       </section>
     </div>
   );
