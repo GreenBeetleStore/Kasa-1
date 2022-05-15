@@ -22,9 +22,9 @@ const About = () => {
   };
 
   return (
-    <div className="aboutUs">
+    <div className="about">
       <Banner image={imageBanner} />
-      <div className="aboutUs__dropdowns">
+      <div className="about__dropdowns">
         <Collapse title="fiabilité" content={content("fiability")} />
         <Collapse title="respect" content={content("respect")} />
         <Collapse title="service" content={content("service")} />

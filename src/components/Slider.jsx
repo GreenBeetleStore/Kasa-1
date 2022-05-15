@@ -18,19 +18,19 @@ const Slider = ({ slides }) => {
   };
 
   return (
-    <div className="carrousel">
+    <div className="slider">
       {slides.map((picture, index) => {
         return (
           <div
             key={index}
             className={
               index === current
-                ? "slide carrousel__active-picture"
-                : "slide carrousel__inactive-picture"
+                ? "slide slider__active-picture"
+                : "slide slider__inactive-picture"
             }
           >
             {index === current && (
-              <img src={picture} alt="" className="carrousel__picture" />
+              <img src={picture} alt="" className="slider__picture" />
             )}
           </div>
         );
@@ -38,11 +38,11 @@ const Slider = ({ slides }) => {
       {/* get button if there are more thant one picture */}
       {length > 1 ? (
         <>
-          <div className="carrousel__previous" onClick={prevSlide}>
-            <img src={arrowLeft} alt="" className="carrousel__previous-icon" />
+          <div className="slider__previous" onClick={prevSlide}>
+            <img src={arrowLeft} alt="" className="slider__previous-icon" />
           </div>
-          <div className="carrousel__next" onClick={nextSlide}>
-            <img src={arrowRight} alt="" className="carrousel__next-icon" />
+          <div className="slider__next" onClick={nextSlide}>
+            <img src={arrowRight} alt="" className="slider__next-icon" />
           </div>
         </>
       ) : null}

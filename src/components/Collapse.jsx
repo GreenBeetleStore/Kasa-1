@@ -1,44 +1,38 @@
 import React from "react";
+// possible d'ajuster l'ouverture du collapse avec usestate
 
 const Collapse = ({ title, content }) => {
   const isCollapse = (e) => {
     e.preventDefault();
     const divText = e.target.nextSibling;
-    const arrowToRotate = e.target;
+    const arrow = e.target.lastChild;
 
-    if (
-      !divText.classList.contains("show") &&
-      !arrowToRotate.classList.contains("rotate")
-    ) {
+    if (!divText.classList.contains("show")) {
       divText.classList.add("show");
-      arrowToRotate.classList.add("rotate");
+      arrow.classList.add("rotate");
     } else {
       divText.classList.remove("show");
-      arrowToRotate.classList.remove("rotate");
+      arrow.classList.remove("rotate");
     }
   };
   return (
-    <div className="dropdown ">
-      <button type="button" className="dropdown__button" onClick={isCollapse}>
-        {/* <h5 className="dropdown__title">{title}</h5> */}
-        {/* <img
-          className="dropdown__arrow"
-          src="../design/arrow_back_ios-24px 2.png"
-          alt=""
-        /> */}
+    <div className="collapse ">
+      <button type="button" className="collapse__button" onClick={isCollapse}>
         {title}
+
+        <p className="collapse__arrow">&lt;</p>
       </button>
-      <div className="dropdown__content">
+      <div className="collapse__content">
         {Array.isArray(content) ? (
-          <ul className="dropdown__list">
+          <ul className="collapse__list">
             {content.map((equipment, index) => (
-              <li key={index} className="dropdown__list-element">
+              <li key={index} className="collapse__list-element">
                 {equipment}
               </li>
             ))}
           </ul>
         ) : (
-          <p className="dropdown__text">{content}</p>
+          <p className="collapse__text">{content}</p>
         )}
       </div>
     </div>
